@@ -1,0 +1,36 @@
+{
+  "name": "conf-chat",
+  "version": "1.0.0",
+  "description": "Simple P2P message sharing system using libp2p",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^14.1.2",
+    "@chainsafe/libp2p-noise": "^17.0.0",
+    "@chainsafe/libp2p-yamux": "^8.0.1",
+    "@libp2p/bootstrap": "^12.0.8",
+    "@libp2p/circuit-relay-v2": "^4.1.0",
+    "@libp2p/gossipsub": "^15.0.8",
+    "@libp2p/identify": "^4.0.6",
+    "@libp2p/kad-dht": "^16.1.0",
+    "@libp2p/mdns": "^12.0.8",
+    "@libp2p/noise": "^1.0.1",
+    "@libp2p/peer-id": "^6.0.4",
+    "@libp2p/peer-id-factory": "^4.2.4",
+    "@libp2p/ping": "^3.0.7",
+    "@libp2p/tcp": "^11.0.6",
+    "@libp2p/webrtc": "^6.0.8",
+    "@libp2p/webrtc-direct": "^6.0.0",
+    "@libp2p/websockets": "^10.1.0",
+    "@multiformats/multiaddr": "^13.0.1",
+    "bcrypt": "^6.0.0",
+    "chainsafe": "^1.0.4",
+    "libp2p": "^3.0.7"
+  }
+}
